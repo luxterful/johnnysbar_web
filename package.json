@@ -1,0 +1,23 @@
+{
+  "name": "johnnysbar_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "next": "^9.1.7",
+    "raw-loader": "^4.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-markdown": "^4.3.0"
+  }
+}

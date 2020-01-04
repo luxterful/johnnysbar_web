@@ -1,0 +1,104 @@
+---
+title: "Flunkyball Regeln"
+---
+
+Abegenommen vom Verein deutscher Biertrinker e. V.(VDB), Verein deutscher Flunkyballer e.V.(VDF), anonyme Alkoholiker (AA) oder auch der Bundeszentrale für gesundheitliche Aufklärung (BZgA) sind die Regeln der Johnny’s Bar. Diese “...bestechen durch ihre präzise Ausführung und Sinn für brenzlige Situationen. Außerdem sind es die einzigen Regeln des deutschen Flunkyballs, die in Paragraphenform niedergeschrieben sind” (Max Bierhals, auf dem Kongress für Alkoholismus 2014 in Pilsen)
+Die Regeln umfassen 14 Paragraphen in denen Distanzen, Getränke und die Spielvorgänge beschrieben sind.
+
+## §1 Spielvorbereitung
+
+(1) Zu Beginn des Spiels finden sich die Spieler zusammen. Jeder Spieler fasst sich eine geschlossene Flache des passenden Getränks (in der Folge Bier) (vergütetes Wasser nach Güteklasse mind. 2). Die Größe der Bierflasche ist bei jedem Spieler gleich (in der Regel 0,5l (in Worten: Null Komma Fünf). Einzelne Spieler können sich mit Zustimmung der eigenen Teammitglieder ein größeres Trinkgefäß schnappen.
+
+(2) Anschließend setzen sich die Teams zufällig zusammen und umfassen die möglichst gleiche Personenzahl.
+
+(3) Die Spieler eines Teams (in Folge Team 1, Team 1 ist auch das werfende Team) stellen sich in einer Linie auf und stellen das noch geschlossene Bier vor sich auf den Boden ab. Blickrichtung in Richtung Bier und gegnerischen Teams (Team 2). Ein Spieler läuft nun 5m (in Worten Fünf) ab der imaginären Linie, gebildet von den Flaschen von Team 1, in diese Blickrichtung. Angekommen an diesem Punkt, wird eine Flasche (Plastik 1,0 oder 1,5l, zu etwa ⅜ gefüllt), abgestellt. Von der Flasche geht der selbe Spieler weitere 5m (fünf) weiter. Das ist die Position, in der Team 1 seine Flaschen abstellt. Zur Kontrolle überprüft ein Spieler von Team 1 die Abstände auf ihre gleiche Länge.
+
+(4) Die Spieler stellen sich geordnet hinter ihren Flaschen auf und öffnen ihr Bier
+
+## §2 Zugelassene Getränke
+
+(1) Um die Gewinnchancen bei diesem Spiel in etwa gleich zu halten ist das Getränk definiert. Für männliche Spieler (Personen mit Penis-ohne Lupe sichtbar) gilt Bier. Weibliche Mitspieler (Personen ohne Penis) dürfen auch Radler (Mixgetränk aus Bier und Limonade mit etwa 50% Bieranteil) trinken. Dasselbe gilt für Fahrer, auch wenn sie männlicher Natur sind. Radfahrer sind keine Fahrer!
+
+## §3 Spielablauf
+
+(2) Die Teams werfen abwechselnd.
+
+(3) Die Werfer eines Teams wechseln sich ab. Ein Spieler darf kein zweites Mal werfen, bevor jeder Mitspieler mindestens ein Mal zwischen seinem ersten und seinem nächsten Versuch geworfen hat.
+
+(4) Die Läufer der Teams wechseln sich ab. Dabei darf ein Spieler auch mehrmals hintereinander laufen. Es ist aber nicht gestattet, dass dieser immer läuft.
+
+## §4 Spielbeginn
+
+(1) Ein Team (Team 1) beginnt und wirft eine etwa halb volle Plastikflasche auf die Flasche, die in der Mitte steht.
+
+(2) Die Spieler der Teams stehen hinter ihren Flaschen. Die Spieler von Team 1 dürfen ihre Flasche nicht anheben. Eine Berührung ist zulässig, solange sie kein Greifen der Flasche ist.
+
+(3) Die Spieler von Team 2 dürfen ihre Flaschen solange nicht berühren, wie der Werfer die Wurfflasche berührt. Außerdem stehen Sie komplett hinter ihren Flaschen
+
+## §5 Der Wurf
+
+(1) Der werfende Spieler darf stehen, sitzen oder liegen.
+
+(2) Ein Wurf wird dann ausgeführt wenn alle Spieler des gegnerischen Teams anwesend und bereit sind. Ein Spieler ist dann bereit, wenn er seinerseits Blickkontakt mit dem werfenden Spieler herstellt.
+
+(3) Ein Spieler muss seinen Wurf durch Mimik, Gestik oder Sprache offensichtlich ankündigen.
+
+(4) Eine Ausholbewegung, Antäuschen oder eine ein- oder mehrmalige Schwungbewegung ist zulässig.
+
+(5) Die Flasche muss den Arm in vertikaler Richtung über der Schulter verlassen.
+
+## §6 Treffer
+
+(1) Ein Treffer liegt dann vor, wenn die Flasche in der Mitte getroffen wurde und umfällt.
+
+(2) Bei einem Treffer darf Team 1 ab dem Zeitpunkt, an dem die mittige Flasche umgefallen ist, die eigenen Biere leeren. Das muss in Form eines Trinkvorgangs geschehen.
+
+(3) Team 2 muss ab dem Zeitpunkt, zu dem die mittige Flasche umgefallen ist, diese Flasche in etwa mittiger -zwischen beiden Teams - Position aufstellen.
+
+(4) Die geworfene Flasche muss von Team 2 geholt werden.
+
+(5) Team 1 hört dann zu trinken auf, wenn
+
+- alle Spieler von Team 2 hinter ihren Flaschen sind.
+- die mittige Flasche wieder steht.
+- … und die geworfene Flasche hinter den eigenen Flaschen ist.
+
+## §7 Wurfwechsel
+
+(1) Erzielt Team 1 keinen Treffer oder Team 2 hat die in §6.5 beschriebenen Anforderungen erfüllt, beginnt ein neuer Wurfvorgang.
+
+(2) Es wirft das andere Team
+
+## §8 Spielziel
+
+(1) Gewonnen hat die Mannschaft, die zuerst alle Biere, inklusive Strafbiere, leer hat.
+
+(2) Ein Bier gilt dann als leer, wenn es der Restinhalt nicht schafft, innerhalb von 10 Sekunden keinen Kronkorken zum überlaufen zu bringen.
+
+## §9 Strafbier
+
+(1) Ein Spieler bekommt dann ein Strafbier wenn
+
+- Seine Flasche von der geworfenen Flasche umgeworfen wurde
+- Team 2 losläuft bevor die Flasche die Hand des Werfers verlässt
+- er seine eigene Flasche umwirft
+- er seine Flasche vor dem zugelassenen Zeitpunkt berührt oder beschützt
+- sein Bier nicht leer genug war
+- er das Bier eines anderen Mitspielers trinkt
+- er gegen eine Regel, die mit einem Strafbier bestraft wird, verstößt.
+
+(2) Ein Strafbier ist ein komplett gefülltes Bier desselben Getränks, mit dem der Spieler angefangen hat.
+
+(3) Strafbiere müssen von einem Spieler sofort geöffnet werden und neben der anderen Flasche abgestellt werden
+
+(4) Strafbiere sind eine persönliche Belohnung...ääähhh... Bestrafung und müssen selbst getrunken werden.
+
+## §10 Sonstiges
+
+(1) Ein Spieler muss das Spiel verlassen, sobald sein Bier leer ist.
+
+(2) Ab diesem Zeitpunkt darf er weder werden, noch laufen. Zuwiderhandlung wird mit einem Strafbier bestraft.
+
+(3) Wurfgeschosse können auch Bälle sein.
+
+[Geschichte](/flunkyball/geschichte/)
