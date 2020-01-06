@@ -1,7 +1,10 @@
 const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/
 });
+const withCSS = require("@zeit/next-css");
 
-module.exports = withMDX({
-  pageExtensions: ["js", "jsx", "md", "mdx"]
-});
+module.exports = withCSS(
+  withMDX({
+    pageExtensions: ["js", "jsx", "md", "mdx"]
+  })
+);

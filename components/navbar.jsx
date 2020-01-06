@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { withRouter } from "next/router";
 
-const Navigation = () => {
+const Navigation = ({ router }) => {
   const games = (context => {
     const keys = context.keys();
     const values = keys.map(context);
@@ -12,22 +13,25 @@ const Navigation = () => {
         .slice(0, -1)
         .join(".");
       const { meta } = values[index];
+      const path = "/games/" + slug;
       return {
-        slug,
+        path,
         meta
       };
     });
   })(require.context("../pages/games", true, /\.mdx$/));
 
   return (
-    <ul>
+    <ul className="sidebar">
       <Link href={"/"}>
-        <a>home</a>
+        <a className={router.asPath === "/" ? "active" : ""}>home</a>
       </Link>
       {games.map(game => (
-        <li key={game.slug}>
-          <Link href={"/games/" + game.slug}>
-            <a>{game.meta.title}</a>
+        <li key={game.path}>
+          <Link href={game.path}>
+            <a className={router.asPath === game.path ? "active" : ""}>
+              {game.meta.title}
+            </a>
           </Link>
         </li>
       ))}
@@ -35,4 +39,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default withRouter(Navigation);
