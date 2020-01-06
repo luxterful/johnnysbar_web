@@ -1,21 +1,38 @@
-const Navigation = ({ allGames }) => {
-  return <ul>{"" + allGames}</ul>;
-};
+import Link from "next/link";
 
-Navigation.getInitialProps = async function() {
-  const posts = (context => {
+const Navigation = () => {
+  const games = (context => {
     const keys = context.keys();
     const values = keys.map(context);
-    const data = keys.map((key, index) => {
-      const value = values[index];
-      return value;
+    return keys.map((key, index) => {
+      // Create slug from filename
+      const slug = key
+        .replace(/^.*[\\/]/, "")
+        .split(".")
+        .slice(0, -1)
+        .join(".");
+      const { meta } = values[index];
+      return {
+        slug,
+        meta
+      };
     });
-    return data;
   })(require.context("../pages/games", true, /\.mdx$/));
 
-  return {
-    allGames: posts
-  };
+  return (
+    <ul>
+      <Link href={"/"}>
+        <a>home</a>
+      </Link>
+      {games.map(game => (
+        <li key={game.slug}>
+          <Link href={"/games/" + game.slug}>
+            <a>{game.meta.title}</a>
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
 };
 
 export default Navigation;
