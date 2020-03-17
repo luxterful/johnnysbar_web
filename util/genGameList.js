@@ -12,7 +12,8 @@ const games = (context => {
     const path = "/games/" + slug;
     return {
       path,
-      meta
+      meta,
+      slug
     };
   });
 })(require.context("../pages/games", true, /\.mdx$/));

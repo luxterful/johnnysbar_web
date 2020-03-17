@@ -1,18 +1,27 @@
 import games from "../util/genGameList";
 import { Card, Row, Col } from "react-bootstrap";
+import Link from "next/link";
 
 const index = ({ router }) => {
   return (
     <Row>
       {games.map((game, index) => (
-        <Col md={4} key={index}>
-          <Card key={index}>
-            <Card.Body>
-              <Card.Title>{game.meta.title}</Card.Title>
-              <Card.Link href={game.path}>Link</Card.Link>
-            </Card.Body>
-          </Card>
-        </Col>
+        <Link href={game.path} key={index}>
+          <Col md={4}>
+            <Card className="custom-card shadow-sm">
+              <div
+                className="custom-card-img"
+                style={{
+                  backgroundImage: `url(${game.meta.image || "/images/games.jpg"})`
+                }}
+              ></div>
+
+              <Card.Body>
+                <Card.Title>{game.meta.title}</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Link>
       ))}
     </Row>
   );
