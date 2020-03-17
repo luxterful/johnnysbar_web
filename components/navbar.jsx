@@ -7,7 +7,9 @@ const Navigation = ({ router }) => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="/">Johnnys' Bar</Navbar.Brand>
+        <Link href="/">
+          <Navbar.Brand className="custom-brand">Johnnys' Bar</Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
