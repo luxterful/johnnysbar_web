@@ -1,4 +1,6 @@
 import React from "react";
+import Head from "next/head";
+
 import { MDXProvider } from "@mdx-js/react";
 import Navbar from "../components/navbar";
 import "../css/styles.css";
@@ -11,10 +13,15 @@ const mdComponents = {
 };
 
 export default ({ Component, pageProps }) => (
-  <MDXProvider components={mdComponents}>
+  <>
+    <Head>
+      <title>Johnnys Bar</title>
+    </Head>
     <Navbar />
-    <Container>
-      <Component {...pageProps} />
-    </Container>
-  </MDXProvider>
+    <MDXProvider components={mdComponents}>
+      <Container>
+        <Component {...pageProps} />
+      </Container>
+    </MDXProvider>
+  </>
 );

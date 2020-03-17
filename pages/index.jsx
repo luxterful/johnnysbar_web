@@ -5,7 +5,7 @@ const index = ({ router }) => {
   return (
     <Row>
       {games.map((game, index) => (
-        <Col md={4}>
+        <Col md={4} key={index}>
           <Card key={index}>
             <Card.Body>
               <Card.Title>{game.meta.title}</Card.Title>
