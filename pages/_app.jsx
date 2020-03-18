@@ -17,11 +17,17 @@ export default ({ Component, pageProps }) => (
     <Head>
       <title>Johnnys Bar</title>
     </Head>
-    <Navbar />
-    <MDXProvider components={mdComponents}>
-      <Container>
-        <Component {...pageProps} />
-      </Container>
-    </MDXProvider>
+    {Component.isMDXComponent ? (
+      <>
+        <Navbar />
+        <MDXProvider components={mdComponents}>
+          <Container>
+            <Component {...pageProps} />
+          </Container>
+        </MDXProvider>
+      </>
+    ) : (
+      <Component {...pageProps} />
+    )}
   </>
 );
