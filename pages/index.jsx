@@ -5,7 +5,7 @@ import Navbar from "../components/navbar";
 
 const index = ({ router }) => {
   return (
-    <>
+    <div className="custom-index-pagewrapper">
       <Navbar />
       <div className="custom-header">
         <Container>
@@ -16,6 +16,7 @@ const index = ({ router }) => {
             </Col>
           </Row>
         </Container>
+        <div className="custom-shadow" />
       </div>
       <Container className="custom-container">
         <Row className="justify-content-md-center custom-landing-headline">
@@ -44,7 +45,15 @@ const index = ({ router }) => {
           ))}
         </Row>
       </Container>
-    </>
+      <div className="custom-footer">
+        <Container className="custom-footer-container">
+          <Link href="/impressum">
+            <a>Impressum</a>
+          </Link>{" "}
+          - copyright Johnnys' Bar 2020
+        </Container>
+      </div>
+    </div>
   );
 };
 

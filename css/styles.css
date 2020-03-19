@@ -1,3 +1,8 @@
+.custom-index-pagewrapper {
+  background-color: black;
+  padding-bottom: 20px;
+}
+
 .custom-card .custom-card-img {
   background-repeat: no-repeat;
   background-position: center center;
@@ -36,14 +41,41 @@
   display: flex;
   align-items: center;
   color: white;
+  position: relative;
 }
 
 .custom-container {
   background-color: white;
-  border-top-left-radius: 0.525rem;
-  border-top-right-radius: 0.525rem;
-  margin-top: -42px;
+  border-radius: 0.5rem;
+  margin: -42px 0;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.175) !important;
-  min-height: 1500px;
   padding-top: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+.custom-footer {
+  padding-top: 42px;
+  color: white;
+}
+
+.custom-footer .container {
+  margin-top: 20px;
+}
+
+.custom-footer a {
+  color: white;
+}
+
+.custom-footer a:hover {
+  color: white;
+}
+
+.custom-shadow {
+  position: absolute;
+  height: 7.5vh;
+  width: 100%;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%);
 }
