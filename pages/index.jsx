@@ -8,8 +8,8 @@ export async function getStaticProps() {
 
   return {
     props: {
-      games: games.items
-    }
+      games: games.items,
+    },
   };
 }
 
@@ -42,8 +42,10 @@ const index = ({ games }) => {
                   <div
                     className="custom-card-img"
                     style={{
-                      backgroundImage: `url(${game.fields.headerImage?.fields
-                        .file.url || "/images/games.jpg"})`
+                      backgroundImage: `url(${
+                        game.fields.headerImage?.fields.file.url ||
+                        "/images/games.jpg"
+                      })`,
                     }}
                   ></div>
 

@@ -1,8 +1,8 @@
 const contentful = require("contentful");
 
 const client = contentful.createClient({
-  space: process.env.contentful_space_id,
-  accessToken: process.env.contentful_access_token
+  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  space: process.env.CONTENTFUL_SPACE_ID,
 });
 
 export default client;
