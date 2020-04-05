@@ -6,7 +6,7 @@ Feel free to make a Pull Request on [Github](https://github.com/luxterful/johnny
 
 ### Local Development
 
-You need to add a `.env` file to set the environment variables for fetching data from the api
+You need to add a `.env` file to set the environment variables for fetching data from the api:
 
 ```
 CONTENTFUL_SPACE_ID=space-id
