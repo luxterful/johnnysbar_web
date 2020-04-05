@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { withRouter } from "next/router";
-import games from "../util/genGameList";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 const Navigation = ({ router }) => {

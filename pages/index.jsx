@@ -1,9 +1,19 @@
-import games from "../util/genGameList";
 import { Card, Row, Col, Container } from "react-bootstrap";
 import Link from "next/link";
 import Navbar from "../components/navbar";
+import client from "../util/client";
 
-const index = ({ router }) => {
+export async function getStaticProps() {
+  const games = await client.getEntries();
+
+  return {
+    props: {
+      games: games.items
+    }
+  };
+}
+
+const index = ({ games }) => {
   return (
     <div className="custom-index-pagewrapper">
       <Navbar />
@@ -26,18 +36,19 @@ const index = ({ router }) => {
         </Row>
         <Row>
           {games.map((game, index) => (
-            <Link href={game.path} key={index}>
+            <Link href={"games/" + game.fields.slug} key={index}>
               <Col md={4}>
                 <Card className="custom-card shadow-sm">
                   <div
                     className="custom-card-img"
                     style={{
-                      backgroundImage: `url(${game.meta.image || "/images/games.jpg"})`
+                      backgroundImage: `url(${game.fields.headerImage?.fields
+                        .file.url || "/images/games.jpg"})`
                     }}
                   ></div>
 
                   <Card.Body>
-                    <Card.Title>{game.meta.title}</Card.Title>
+                    <Card.Title>{game.fields.title}</Card.Title>
                   </Card.Body>
                 </Card>
               </Col>
